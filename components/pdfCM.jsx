@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
         margin: "30px 0 0 0",
     },
 })
-
+      
 const PDFView = ({ click }) => {
     const { pdfData, setUserPdfData } = useUser()
     const [isCliente, setisCliente] = useState(false);
