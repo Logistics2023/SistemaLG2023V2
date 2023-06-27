@@ -1,0 +1,88 @@
+.success {
+    position: fixed;
+    width: 100vw;
+    min-height: 55px;
+    /* background-color: #1eff00; */
+    background-color: transparent;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+
+    text-align: center;
+    transition-duration: .5s;
+    animation-name: animationGreen;
+    animation-duration: 4s;
+    animation-delay: 0;
+    z-index: 1000000000000;
+    padding: 1px 0;
+
+}
+
+.error {
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    /* background-color: red; */
+    background-color: transparent;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+
+    text-align: center;
+
+    animation-name: animationRed;
+    animation-duration: 4s;
+    animation-delay: 0;
+    z-index: 1000000000000;
+    padding: 1px 0;
+
+
+}
+
+@keyframes animationRed {
+    0% {
+        background-color: transparent;
+        color: transparent
+    }
+
+    20% {
+        background-color: #000000;
+        color: #c10000;
+    }
+
+    80% {
+        background-color: #000000;
+        color: #c10000;
+    }
+
+    100% {
+        background-color: transparent;
+        color: transparent
+    }
+}
+
+@keyframes animationGreen {
+    0% {
+        background-color: transparent;
+        color: transparent
+    }
+
+    20% {
+        background-color: #000000;
+        color: #33b500;
+    }
+
+    80% {
+        background-color: #000000;
+        color: #33b500;
+    }
+
+    100% {
+        background-color: transparent;
+        color: transparent
+    }
+}

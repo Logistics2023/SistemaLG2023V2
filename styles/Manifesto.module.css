@@ -1,0 +1,698 @@
+.container {
+    padding: 10px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 794px;
+    background-color: #ffffff;
+    padding: 1.5cm;
+}
+
+.form .label {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #294B98;
+    color: white;
+}
+
+.containerFilter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.containerFilter input:nth-child(1) {
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    width: 90%;
+    min-width: 140px;
+    max-width: 250px;
+    padding: 8px 1px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    color: black;
+}
+
+
+.form input::placeholder {
+    color: white;
+}
+
+.form> :nth-child(2) {
+    background-color: #ffffff;
+    color: #38569c;
+    border: none;
+}
+
+.form div input {
+    border: none;
+    height: 100%;
+    border-bottom: 1px solid #294B98;
+    border-left: 1px solid #294B98;
+    background-color: #ffffff;
+}
+
+
+.form div select {
+    border: none;
+    border-bottom: 1px solid #294B98;
+    background-color: white;
+}
+
+.form div select option {
+    background-color: white;
+}
+
+.subtitle {
+    height: 16px;
+    position: relative;
+    text-align: center;
+    background-color: #294B98;
+    color: #f2f2f2;
+    padding: 0px 0px;
+}
+
+.containerFirstItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f2f2f2;
+    color: #38569c;
+}
+
+.containerFirstItems :nth-child(n) {
+    width: 100%;
+}
+
+
+.imgForm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.containerItems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.containerItems input::placeholder {
+    color: rgb(143, 143, 143);
+}
+
+
+.containerFirstItems2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 3fr 1fr 3fr 1fr 5fr;
+    justify-content: space-between;
+
+    background-color: #f2f2f2;
+    color: #38569c;
+}
+
+.containerFirstItems>span,
+.containerFirstItems2>span {
+    background-color: #294B98;
+    color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #294B98;
+}
+
+
+
+
+
+
+
+
+
+.containerSecondItems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.itemsTwo,
+.itemsThree {
+    width: 50%;
+    text-align: center;
+}
+
+.itemsTwo,
+.itemsThree> :nth-child(1) {
+    width: 50%;
+    text-align: center;
+    background-color: #294B98;
+}
+
+.itemsTwo div input {
+    width: 100%;
+    text-align: center;
+}
+
+.itemsTwo div input::placeholder {
+    width: 100%;
+    text-align: center;
+    color: rgb(143, 143, 143);
+}
+
+.itemsTwo div label {
+    width: 50%;
+    text-align: center;
+}
+
+
+.items {
+    border-top: 1px solid #294B98;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #294B98;
+    color: #f2f2f2;
+}
+
+.items div {
+    border-right: 1px solid #294B98;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items div> :nth-child(n) {
+    width: 100%;
+}
+
+
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 3fr 1fr 3fr 1fr 5fr;
+    border-right: 1px solid #294B98;
+}
+
+.inputsYellow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr 3fr 1fr 3fr 1fr 5fr;
+}
+
+.inputs input {
+    width: 100%;
+    text-align: center;
+}
+
+.inputsYellow .total {
+    background-color: orange;
+    display: block;
+    grid-column: 1/5;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-left: 1px solid #294B98
+}
+
+.inputsYellow span:nth-child(n) {
+    background-color: white;
+    color: orange;
+    text-align: center;
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange
+}
+
+.inputsYellow span:nth-child(1) {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-left: 1px solid #294B98
+}
+
+.inputsYellow span:nth-child(4) {
+    border-right: 1px solid orange
+}
+
+
+/* .inputsYellow span:nth-child(5) {
+    display: none;
+    background-color: red;
+}
+
+.inputsYellow span:nth-child(6) {
+    display: none
+}
+
+.inputsYellow span:nth-child(7) {
+    display: none
+}
+
+.inputsYellow label:nth-child(n) {
+    display: none
+} */
+
+
+.inputsYellow label:nth-child(n) {
+    display: none
+}
+.inputsYellow span:nth-child(6) {
+    display: none;
+    background-color: red;
+}
+.inputsYellow span:nth-child(8) {
+    display: none;
+
+    background-color: red;
+}
+.inputsYellow span:nth-child(10) {
+    display: none;
+
+    background-color: red;
+}
+
+
+
+.inputsSemi {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    text-align: center;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    background-color: orange;
+}
+
+
+
+.inputsAll {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-right: 1px solid #294B98;
+    background-color: white;
+
+}
+
+.firstItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+
+
+.firstItems div {
+    border-right: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #294B98;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.counterPluss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    right: 0px;
+    background-color: rgb(115, 169, 35);
+    border-radius: 3px;
+
+}
+
+.counterLess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    right: 50px;
+    background-color: rgb(234, 0, 0);
+    border-radius: 3px;
+}
+
+.mobil {
+    display: none;
+}
+
+.downloadPDF {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #294B98;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.itemsFour {
+    border-right: 1px solid #294B98;
+
+    width: 50%;
+    text-align: center;
+
+}
+
+
+.itemsFour> :nth-child(1),
+.itemsFour> :nth-child(2) {
+    width: 100%;
+    text-align: center;
+    background-color: #294B98;
+}
+
+.itemsFour> :nth-child(2) {
+    display: flex;
+
+}
+
+.itemsFour> :nth-child(2) :nth-child(n) {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.itemsTwo {
+    border-right: 1px solid #294B98;
+}
+
+
+.itemsTwo div {
+    width: 100%;
+    text-align: center;
+
+}
+
+.itemsTwo div {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.itemsThree {
+    border-right: 1px solid #294B98;
+    background-color: #294B98;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.itemsTwo div input {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.itemsTwo label, .itemsThree label, .itemsFour div div, .itemsFour div span {
+  background-color: #294B98;
+    color: white;
+}
+
+
+
+
+.itemsThree div input,
+.itemsFour div input {
+    width: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.itemsThree div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.itemsThree> :nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+.newStyle label {
+    background-color: #ffffff;
+    color: black;
+    border-bottom: 1px solid #294B98;
+    border-left: 1px solid #294B98;
+
+}
+
+.inputs span {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #294B98;
+
+}
+.negrita {}
+
+@media (max-width: 750px) {
+    .form {
+        width: 100%;
+        max-width: 794px;
+        background-color: #ffffff;
+        padding: 5px;
+    }
+
+    .subtitle {
+        min-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .form .label {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        background-color: #294B98;
+        color: white;
+    }
+
+    .form div input {
+        border: none;
+        height: auto;
+        min-height: 30px;
+        border-bottom: 1px solid #294B98;
+        border-left: 1px solid #294B98;
+        background-color: #ffffff;
+    }
+
+    .form input {
+        height: 30px;
+    }
+
+    .form div input {
+        border: none;
+        min-height: 30px;
+        border-bottom: 1px solid #294B98;
+        border-left: 1px solid #294B98;
+        background-color: #ffffff;
+    }
+
+    .form select {
+        height: 30px;
+    }
+
+    .form option {
+        height: 30px;
+    }
+
+    .form div input {
+        border: 1px solid #294B98;
+    }
+
+    .imgForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .items div {
+        flex-direction: column;
+    }
+
+    .itemsTwo,
+    .itemsThree {
+        width: 100%;
+        text-align: center;
+    }
+
+    .itemsThree label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .itemsThree div input,
+    .itemsFour div input {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .containerFirstItems {
+        flex-direction: column;
+    }
+
+    .counterPluss {
+        height: 15px;
+        width: 25px;
+        top: -7px
+    }
+    .counterLess {
+        height: 15px;
+        width: 25px;
+        top: -7px;
+        right: 25px;
+
+    }
+
+    .inputsYellow span:nth-child(n) {
+        display: inline-block;
+        height:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputsYellow span:nth-child(2) {
+        display: none
+    }
+
+    .inputsYellow span:nth-child(3) {
+        display: none
+    }
+
+    .inputsYellow span:nth-child(4) {
+        display: none
+    }
+    .inputsYellow label:nth-child(n) {
+        display: inline-block
+    }
+ 
+
+    .inputsYellow label:nth-child(n) {
+        display: inline-block;
+
+        grid-column: 1/9;
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border-left: 1px solid orange;
+        border-bottom: 1px solid orange
+    }
+
+    .inputsYellow span:nth-child(n) {
+        min-width: none;
+        max-height: 30px;
+        grid-column: 1/9;
+        background-color: white;
+        color: orange;
+        text-align: center;
+        border: 1px solid orange;
+    }
+
+
+
+ 
+
+    .firstItems div {
+        display: flex;
+        flex-direction: column;
+    }
+    .itemsFour {
+    
+        width: 100%;
+    
+    }
+    .itemsFour div input {
+        width: 50%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .inputsSemi {
+        width: 100%;
+    }
+
+    .form .inputsSemi input {
+        border: 1px solid orange;
+        background-color: #ffffff;
+    }
+
+    .mobil {
+        display: block;
+    }
+
+    .inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-right: 1px solid #294B98;
+        margin-bottom: 16px;
+    }
+
+    .inputs span {
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+    }
+    .desktop {
+        display: none;
+    }
+
+    .form input::placeholder {
+        color: rgb(143, 143, 143);
+    }
+
+
+}

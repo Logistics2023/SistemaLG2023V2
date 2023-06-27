@@ -1,0 +1,381 @@
+.container {
+    padding: 10px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 794px;
+    background-color: #ffffff;
+    padding: 1.5cm;
+
+}
+
+.containerFilter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.containerFilter input:nth-child(1) {
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    width: 90%;
+    min-width: 140px;
+    max-width: 250px;
+    padding: 8px 1px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    color: black;
+}
+
+
+.flex span {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.form> :nth-child(2) {
+    background-color: #ffffff;
+    color: #38569c;
+    border: none;
+}
+
+.containerFirstItems>span {
+    background-color: #294B98;
+    color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #294B98;
+}
+
+.containerFirstItems2>span {
+    background-color: #294B98;
+    color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #294B98;
+}
+
+.form label {
+    padding-left: 10px;
+}
+
+.form div input {
+    border: none;
+    border-bottom: 1px solid #294B98;
+    border-left: 1px solid #294B98;
+    background-color: #ffffff;
+}
+
+.form div select {
+    border: none;
+    border-bottom: 1px solid #294B98;
+    background-color: white;
+}
+
+.form div select option {
+    background-color: white;
+}
+
+.imgForm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subtitle {
+  position: relative;
+    text-align: center;
+    background-color: #294B98;
+    color: #f2f2f2;
+    padding: 0px 0px;
+}
+
+
+
+.items {
+    border-top: 1px solid #294B98;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #294B98;
+    color: #f2f2f2;
+}
+
+.items div {
+    border-right: 1px solid #294B98;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items div :nth-child(n) {
+    width: 100%;
+}
+
+.containerFirstItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f2f2f2;
+    color: #38569c;
+}
+
+.containerFirstItems2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr  2fr 2fr 2fr 3fr;
+    justify-content: space-between;
+
+    background-color: #f2f2f2;
+    color: #38569c;
+}
+
+.containerFirstItems :nth-child(n) {
+    width: 100%;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 3fr 2fr  2fr 2fr 2fr 3fr;
+    border-right: 1px solid #294B98;
+}
+
+.inputs input {
+    width: 100%;
+    text-align: center;
+}
+
+.inputs .total {
+    background-color: orange;
+    display: block;
+    grid-column: 1/4;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-left: 1px solid #294B98
+
+}
+.inputs .span {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-left: 1px solid #294B98
+}
+.inputsSemi {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    text-align: center;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    background-color: orange;
+}
+
+.form .inputsSemi input {
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+    background-color: #ffffff;
+}
+
+.inputsAll {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-right: 1px solid #294B98;
+}
+
+.firstItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.firstItems :nth-child(1) {
+    border-top: 1px solid #294B98;
+}
+
+.firstItems div {
+    border-right: 1px solid #294B98;
+    background-color: #294B98;
+    color: #f2f2f2;
+}
+
+.firstItems div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.counterPluss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    right: 0px;
+    background-color: rgb(115, 169, 35);
+    border-radius: 3px;
+
+}
+
+.counterLess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    right: 50px;
+    background-color: rgb(234, 0, 0);
+    border-radius: 3px;
+}
+
+.mobil {
+    display: none;
+}
+
+.downloadPDF {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #294B98;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.items {
+    text-align: center;
+}
+
+.newStyle label {
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #294B98;
+    border-left: 1px solid #294B98;
+
+}
+
+@media (max-width: 750px) {
+    .subtitle {
+        min-height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form {
+        width: 100%;
+        max-width: 794px;
+        background-color: #ffffff;
+        padding: 5px;
+    
+    }
+    
+    .form label {
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form input {
+        height: 30px;
+    }
+
+    .form select {
+        height: 30px;
+    }
+
+    .form option {
+        height: 30px;
+    }
+
+    .form div input {
+        border: 1px solid #294B98;
+    }
+
+    .imgForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .items div {
+        flex-direction: column;
+    }
+
+    .containerFirstItems {
+        flex-direction: column;
+    }
+
+    .counterPluss {
+        height: 15px;
+        width: 25px;
+        top: -7px
+    }
+    .counterLess {
+        height: 15px;
+        width: 25px;
+        top: -7px;
+        right: 25px;
+
+    }
+    .firstItems div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputsSemi {
+        width: 100%;
+    }
+
+    .form .inputsSemi input {
+        border: 1px solid orange;
+        background-color: #ffffff;
+    }
+
+    .mobil {
+        display: block;
+    }
+
+    .inputs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-right: 1px solid #294B98;
+        margin-bottom: 16px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .form input::placeholder {
+        color: rgb(143, 143, 143);
+    }
+    .inputs .span {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
