@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     },
     valueTwo: {
         width: "100%",
-        height: "12px",
+        minHeight: "12px",
         padding: "2px 5px 0px 5px ",
         border: "0.5px solid #294B98",
         color: "#000000",
