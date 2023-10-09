@@ -232,7 +232,7 @@ const PDFView = () => {
 
                         </View>
 
-                        <Text style={styles.subtitle}>DESCRIPCION DE SERVICIO</Text>
+                        <Text style={styles.subtitle}>DESCRIPCIÓN DE SERVICIO</Text>
 
 
                         <View style={styles.items}>
@@ -302,7 +302,7 @@ const PDFView = () => {
 
                         </View>
 
-                        <Text style={styles.subtitle}>DESCRPCION</Text>
+                        <Text style={styles.subtitle}>DESCRIPCIÓN</Text>
                         <View style={styles.viewKeyValueTwo}>
                             <Text style={styles.key}>DETALLE</Text>
                             <Text style={styles.key}>COSTO UNITARIO</Text>
@@ -346,7 +346,7 @@ const PDFView = () => {
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.banco && userDB.bank.banco}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>DIRECCION DE BANCO</Text>
+                                <Text style={styles.key}>DIRECCIÓN DE BANCO</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.direccionDeBanco && userDB.bank.direccionDeBanco}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
@@ -354,11 +354,11 @@ const PDFView = () => {
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.codigoSWIFT && userDB.bank.codigoSWIFT}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>NUMERO DE CUENTA EN BS</Text>
+                                <Text style={styles.key}>NÚMERO DE CUENTA EN BS</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.cuentaEnBS && userDB.bank.cuentaEnBS}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>NUMERO DE CUENTA EN USD</Text>
+                                <Text style={styles.key}>NÚMERO DE CUENTA EN USD</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.cuentaEnUSD && userDB.bank.cuentaEnUSD}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
@@ -366,11 +366,11 @@ const PDFView = () => {
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.tipoDeCuenta && userDB.bank.tipoDeCuenta}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>NOMBREA</Text>
+                                <Text style={styles.key}>NOMBRE</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.nombre2 && userDB.bank.nombre2}</Text>
                             </View>
                             <View style={styles.viewKeyValueTwo}>
-                                <Text style={styles.key}>DIRECCION0</Text>
+                                <Text style={styles.key}>DIRECCIÓN</Text>
                                 <Text style={styles.value}>{userDB.bank && userDB.bank.direccion && userDB.bank.direccion}</Text>
                             </View>
                         </View>
