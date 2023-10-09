@@ -254,7 +254,7 @@ const PDFView = () => {
                             <View style={styles.viewKeyValue}>
 
                                 <View style={styles.viewKeyValue}>
-                                    <Text style={styles.key}>MERCANCIA</Text>
+                                    <Text style={styles.key}>MERCANCÍA</Text>
                                     <Text style={styles.value}>{pdfData && pdfData["NC-MERCANCIA"] && pdfData["NC-MERCANCIA"]}</Text>
                                 </View>
                                 <View style={styles.viewKeyValue}>
@@ -309,7 +309,7 @@ const PDFView = () => {
                             <Text style={styles.key}>CANTIDAD</Text>
                             <Text style={styles.key}>COSTO TOTAL</Text>
                             <Text style={styles.key}>FACTURA</Text>
-                            <Text style={styles.key}>OBSERVACION</Text>
+                            <Text style={styles.key}>OBSERVACIÓN</Text>
                         </View>
 
                         {
