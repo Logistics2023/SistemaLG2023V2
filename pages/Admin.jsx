@@ -36,7 +36,7 @@ function Admin() {
                     <Card img="/delivery-truck.svg" buttonText={"Cotizacion Terrestre"} click={(e) => redirection("CotizacionTerrestre")} />
                     <Card img="/airplane.svg" buttonText={"Cotizacion Aerea"} click={(e) => redirection("CotizacionAerea")} />
                     <Card img="/agreement.svg" buttonText={"Manifiesto De Carga"} click={(e) => redirection("ManifiestoDeCarga")} />
-                    <Card img="/015-invoice-1.svg" buttonText={"Nota de Cobranza"} click={(e) => redirection("CotizacionLCL")} />
+                    <Card img="/015-invoice-1.svg" buttonText={"Nota de Cobranza"} click={(e) => redirection("NotaDeCobranza")} />
 
                 </div>
             </div>
