@@ -258,8 +258,8 @@ const PDFView = () => {
                                     <Text style={styles.value}>{pdfData && pdfData["NC-MERCANCIA"] && pdfData["NC-MERCANCIA"]}</Text>
                                 </View>
                                 <View style={styles.viewKeyValue}>
-                                    <Text style={styles.key}>*TIPO DE CARGA</Text>
-                                    <Text style={styles.value}>{pdfData && pdfData["NC-TIPO DE CARGA"] && pdfData["NC-TIPO DE CARGA"]}</Text>
+                                    <Text style={styles.key}>*TIPO DE CAMBIO</Text>
+                                    <Text style={styles.value}>{pdfData && pdfData["NC-TIPO DE CAMBIO"] && pdfData["NC-TIPO DE CAMBIO"]}</Text>
                                 </View>
                             </View>
 
