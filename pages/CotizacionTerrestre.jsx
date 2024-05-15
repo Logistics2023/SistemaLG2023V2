@@ -364,7 +364,7 @@ function CotizacionTerrestre() {
                             <label htmlFor="">MODALIDAD</label>
                             <select name="MODALIDAD" onChange={handleEventChange}>
                                 <option value="">Seleccione una opcion</option>
-                                <option value="FCL">FTL</option>
+                                <option value="FTL">FTL</option>
                                 <option value="LTL">LTL</option>
                                 <option value="CARGA SUELTA">CARGA SUELTA</option>
                                 <option value="DESCONSOLIDADO">DESCONSOLIDADO</option>
