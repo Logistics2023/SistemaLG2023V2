@@ -1,0 +1,82 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 12px;
+height: 100vh;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input {
+  color: black;
+  font-size: 12px;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: clip;
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+select option {
+  color: black;
+}
+select {
+  color: black
+}
+
+textarea {
+  background-color: white;
+  color: black;
+  resize: vertical;
+
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+
+::placeholder{
+  color: rgb(102, 102, 102);
+  
+  }
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+
+    
+    ::placeholder{
+      color: rgb(102, 102, 102);
+
+    }
+}
+
+
+
+
+
+@media (max-width: 750px) {
+  input {
+font-size: 16px}
+    
+}
+

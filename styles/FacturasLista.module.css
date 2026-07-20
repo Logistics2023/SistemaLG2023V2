@@ -1,0 +1,220 @@
+.page {
+    min-height: 100vh;
+    padding: 84px 24px 32px;
+    background-color: transparent;
+}
+
+.header {
+    margin: 0 auto 24px;
+    max-width: 1200px;
+}
+
+.header h1 {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.header p {
+    margin: 0;
+    color: #e4e4e4;
+    font-size: 14px;
+}
+
+.feedback {
+    margin: 0 auto 16px;
+    max-width: 1200px;
+}
+
+.table {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #294B98;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 12px 28px rgba(41, 75, 152, 0.12);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) minmax(0, 1.6fr) minmax(0, 0.9fr) minmax(0, 0.9fr) minmax(0, 0.8fr) minmax(220px, 1.2fr);
+    align-items: center;
+}
+
+.row>span,
+.row>div {
+    min-width: 0;
+    padding: 14px 12px;
+    border-bottom: 1px solid rgba(41, 75, 152, 0.15);
+    color: #294B98;
+    word-break: break-word;
+}
+
+.headRow {
+    background-color: #294B98;
+}
+
+.headRow span {
+    color: #f2f2f2;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid #294B98;
+}
+
+.row:not(.headRow):nth-child(even) {
+    background-color: rgba(41, 75, 152, 0.05);
+}
+
+.invoiceNo {
+    font-weight: 700;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 82px;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.badgeActive {
+    background-color: rgba(36, 124, 79, 0.14);
+    color: #247c4f;
+}
+
+.badgeVoided {
+    background-color: rgba(166, 42, 42, 0.14);
+    color: #a62a2a;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(41, 75, 152, 0.15);
+}
+
+.actions :global(button) {
+    min-width: 98px;
+    width: auto;
+    max-width: none;
+}
+
+.pdfActionWrap {
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    padding: 0;
+    border-bottom: none;
+}
+
+.actionLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 98px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 2px solid #ffffff3c;
+    background-color: #F1BA06;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: .5s;
+}
+
+.actionLink:hover {
+    color: white;
+    background-color: #294B98;
+    border: 2px solid #7d99da;
+}
+
+.emptyState {
+    padding: 28px 16px;
+    text-align: center;
+    color: #38569c;
+    background-color: rgba(41, 75, 152, 0.04);
+}
+
+@media (max-width: 900px) {
+    .page {
+        padding: 84px 12px 24px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .table {
+        border: none;
+        box-shadow: none;
+        background-color: #ffffff00;
+        border-radius: 16px;
+        overflow: visible;
+    }
+
+    .headRow {
+        display: none;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        border: 1px solid rgba(41, 75, 152, 0.24);
+        border-radius: 16px;
+        margin-bottom: 14px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0 10px 24px rgba(41, 75, 152, 0.08);
+    }
+
+    .row>span,
+    .row>div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        border-bottom: 1px solid rgba(41, 75, 152, 0.12);
+        padding: 12px 14px;
+    }
+
+    .row>span::before,
+    .row>div::before {
+        content: attr(data-label);
+        color: #294B98;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+    }
+
+    .actions {
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-bottom: none;
+    }
+
+
+    .actions :global(button),
+    .actionLink,
+    .pdfActionWrap {
+        width: 100%;
+        max-width: none;
+    }
+
+    .actionLink {
+        min-width: 0;
+    }
+
+    .row:not(.headRow):nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
+}

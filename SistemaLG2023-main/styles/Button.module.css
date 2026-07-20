@@ -1,0 +1,64 @@
+.button {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    min-width: 150px;
+    max-width: 250px;
+    padding: 8px 1px;
+    border-radius: 20px;
+
+    transition-duration: .5s;
+}
+
+.buttonPrimary {
+    color: white;
+    background-color: #294B98;
+    border: 2px solid #7d99da;
+}
+
+.buttonPrimary:hover {
+    color: #000000;
+    background-color: #F1BA06;
+    border: 2px solid #ffffff3c;
+}
+
+.buttonSecondary {
+    color: #000000;
+    background-color: #F1BA06;
+    border: 2px solid #ffffff3c;
+}
+
+.buttonSecondary:hover {
+    color: white;
+    background-color: #294B98;
+    border: 2px solid #7d99da;
+}
+.buttonSecondaryPDF {
+    width: 100%;
+    color: #000000;
+    background-color: #F1BA06;
+    border: 2px solid #ffffff3c;
+}
+
+.buttonSecondaryPDF:hover {
+    color: white;
+    background-color: #294B98;
+    border: 2px solid #7d99da;
+}
+.buttonTransparent {
+    height: 35px;
+    max-width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: #00000000;
+    border: 2px solid #7d99da;
+
+}
+
+.buttonTransparent:hover {
+    color: #000000;
+    background-color: #F1BA06;
+    border: 2px solid #ffffff3c;
+}
