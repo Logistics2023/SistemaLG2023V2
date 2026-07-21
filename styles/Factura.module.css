@@ -358,6 +358,8 @@
     max-width: none;
     height: 100%;
     margin: 0;
+    display: block;
+    text-decoration: none;
 }
 
 @media (max-width: 750px) {
