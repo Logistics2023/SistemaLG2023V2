@@ -9,6 +9,7 @@ import style from '../styles/Login.module.css'
 
 function Login() {
     const { userDB, setUserSuccess, success } = useUser()
+    console.log(userDB)
     const registrationEnabled = userDB?.register === true
 
     function loginWithEmailAndPassword(e) {

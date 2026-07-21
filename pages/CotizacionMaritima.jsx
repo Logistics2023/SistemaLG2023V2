@@ -431,7 +431,7 @@ function CotizacionMaritima() {
                             <select name="MODALIDAD" onChange={handleEventChange}>
                                 <option value="">Seleccione una opcion</option>
                                 <option value="MULTIMODAL">MULTIMODAL</option>
-                                <option value="MARTIMO">MARTIMO</option>
+                                <option value="MARITIMO">MARITIMO</option>
                             </select>
                         </div>
                     </div>
