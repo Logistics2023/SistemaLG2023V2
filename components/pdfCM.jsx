@@ -549,7 +549,8 @@ const PDFView = () => {
 
                     </Page>
                 </Document> : null)}
-                fileName={`COTIZACIÓN MARITIMA ${pdfData && pdfData[`CM-COTIZACION No`] && pdfData[`CM-COTIZACION No`]}`}>
+                fileName={`COTIZACIÓN MARITIMA ${pdfData && pdfData[`CM-COTIZACION No`] && pdfData[`CM-COTIZACION No`]}`}
+                style={{ display: 'block', width: '100%', textDecoration: 'none' }}>
 
                 <Button style={'buttonSecondaryPDF'}>pdf</Button>
 

@@ -542,7 +542,8 @@ La firma de recepcion en este Manifiesto de Carga es la constancia de que se ha 
                         </View>
                     </Page>
                 </Document> : null)}
-                fileName={`MANIFESTO DE CARGA ${pdfData && pdfData[`MC-COTIZACION No`] && pdfData[`MC-COTIZACION No`]}`}>
+                fileName={`MANIFESTO DE CARGA ${pdfData && pdfData[`MC-COTIZACION No`] && pdfData[`MC-COTIZACION No`]}`}
+                style={{ display: 'block', width: '100%', textDecoration: 'none' }}>
 
                 <Button style={'buttonSecondaryPDF'}>pdf</Button>
 
