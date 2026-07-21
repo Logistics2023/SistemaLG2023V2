@@ -15,8 +15,29 @@
 
 .containerFilter {
     width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.containerFilter>button,
+.containerFilter>div {
+    width: 100%;
+    max-width: 250px;
+    flex: 1 1 180px;
+}
+
+.containerFilter>button,
+.containerFilter>div button {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    height: 100%;
+    margin: 0;
 }
 
 

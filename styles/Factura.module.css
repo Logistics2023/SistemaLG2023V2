@@ -344,6 +344,22 @@
     margin: 0;
 }
 
+.actionBar>button,
+.actionBar>div {
+    width: 100%;
+    max-width: 250px;
+    flex: 1 1 180px;
+}
+
+.actionBar>button,
+.actionBar>div :global(a) {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
 @media (max-width: 750px) {
 
     .subtitle2 {
