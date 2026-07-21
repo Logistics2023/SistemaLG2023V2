@@ -12,7 +12,6 @@ const APP_DATA_PATHS = [
   'users',
   'bank',
   'register',
-  'login',
   'counter',
   'CotizacionAerea',
   'CotizacionMaritima',

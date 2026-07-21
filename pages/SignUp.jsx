@@ -13,9 +13,7 @@ import Link from 'next/link'
 function Login() {
     const { user, userDB, setUserSuccess, success } = useUser()
     const router = useRouter()
-    const registrationEnabled = typeof userDB?.register === 'boolean'
-        ? userDB.register
-        : Boolean(userDB?.login)
+    const registrationEnabled = userDB?.register === true
 
     function loginWithEmailAndPassword(e) {
         e.preventDefault()

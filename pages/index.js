@@ -9,9 +9,7 @@ import style from '../styles/Login.module.css'
 
 function Login() {
     const { userDB, setUserSuccess, success } = useUser()
-    const registrationEnabled = typeof userDB?.register === 'boolean'
-        ? userDB.register
-        : Boolean(userDB?.login)
+    const registrationEnabled = userDB?.register === true
 
     function loginWithEmailAndPassword(e) {
         e.preventDefault()

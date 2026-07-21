@@ -41,9 +41,7 @@ function Users() {
     const currentAdmin = user ? admins[user.uid] : null
     const canManageAll = currentAdmin?.rol === 'Admin'
     const canViewClients = Boolean(user && userDB)
-    const registrationEnabled = typeof userDB?.register === 'boolean'
-        ? userDB.register
-        : Boolean(userDB?.login)
+    const registrationEnabled = userDB?.register === true
     const visibleUsers = hasUsersNode ? Object.entries(users).filter(([id, data]) => {
         if (!data || id === user?.uid) {
             return false
