@@ -409,7 +409,7 @@ const PDFView = ({ invoiceRecord = null, label = 'pdf', linkClassName = '', cont
                             </View>
 
                             {charges.map((item, index) => (
-                                <View style={styles.chargesRow} key={index}>
+                                <View style={styles.chargesRow} key={index} wrap={false}>
                                     <Text style={styles.colDetail}>{getValue(`DETAIL${index}`)}</Text>
                                     <Text style={styles.colUnitRate}>{getValue(`UNITRATE${index}`)}</Text>
                                     <Text style={styles.colCurrency}>{getValue(`RATECURRENCY${index}`)}</Text>

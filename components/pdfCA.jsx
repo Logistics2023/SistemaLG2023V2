@@ -392,7 +392,7 @@ const PDFView = () => {
                             pdfData.tarifa && pdfData.tarifa.map((i, index) => {
                                 return (
 
-                                    <View style={styles.viewKeyValueTwo} key={index}>
+                                    <View style={styles.viewKeyValueTwo} key={index} wrap={false}>
                                         <Text style={styles.value}>{pdfData && pdfData[`CA-DETALLEFLETE${index}`] && pdfData[`CA-DETALLEFLETE${index}`]}</Text>
                                         <Text style={styles.value}>{pdfData && pdfData[`FLETEUNITARIO${index}`] && pdfData[`FLETEUNITARIO${index}`]}</Text>
                                         <Text style={styles.value}>{pdfData && pdfData[`CANTIDADFLETE${index}`] && pdfData[`CANTIDADFLETE${index}`]}</Text>
@@ -426,7 +426,7 @@ const PDFView = () => {
                             pdfData.otrosGastos && pdfData.otrosGastos.map((i, index) => {
                                 return (
 
-                                    <View style={styles.viewKeyValueTwo} key={index}>
+                                    <View style={styles.viewKeyValueTwo} key={index} wrap={false}>
 
 
 

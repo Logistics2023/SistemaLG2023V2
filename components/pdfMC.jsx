@@ -398,7 +398,7 @@ function PDFView() {
                         {pdfData && pdfData.tarifa && pdfData.tarifa.map((i, index) => {
                             return (
 
-                                <View style={styles.viewKeyValue} key={index}>
+                                <View style={styles.viewKeyValue} key={index} wrap={false}>
                                     <Text style={{ ...styles.value, width: '5%' }}>{index + 1}</Text>
                                     <Text style={{ ...styles.value, width: '5%' }}>{pdfData && pdfData[`MC-ITEM${index}`] && pdfData[`MC-ITEM${index}`]}</Text>
                                     <Text style={{ ...styles.value, width: '25%' }}>{pdfData && pdfData[`MC-DESCRIPCION${index}`] && pdfData[`MC-DESCRIPCION${index}`]}</Text>
@@ -448,7 +448,7 @@ function PDFView() {
 
                             {pdfData.incluye && pdfData.incluye.map((i, index) => {
                                 return (
-                                    <View style={styles.viewKeyValue} key={index}>
+                                    <View style={styles.viewKeyValue} key={index} wrap={false}>
                                         <View style={styles.viewKeyValue}>
                                             <Text style={styles.value}>{pdfData && pdfData[`MC-DOC${index + 3}`] && pdfData[`MC-DOC${index + 3}`]}</Text>
                                             <Text style={styles.value}>{pdfData && pdfData[`MC-NUM${index + 3}`] && pdfData[`MC-NUM${index + 3}`]}</Text>
