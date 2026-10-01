@@ -9,7 +9,6 @@ function createStyles(StyleSheet) {
 return StyleSheet.create({
     body: {
         padding: "1.5cm",
-        paddingTop: "0px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "start",
@@ -185,7 +184,7 @@ const PDFView = () => {
             {rendererError && <span style={{ marginTop: '8px', color: '#d03838', fontSize: '12px', textAlign: 'center' }}>{rendererError}</span>}
             {isCliente && <PDFDownloadLink document={() => (
                 renderer && styles ? <Document>
-                    <Page style={styles.body} >
+                    <Page style={styles.body} size="A4">
                         <Text style={styles.subtitle}>NOTA DE COBRANZA</Text>
                         <View style={styles.containerIntroItems}>
                             <View style={styles.introImg}>
